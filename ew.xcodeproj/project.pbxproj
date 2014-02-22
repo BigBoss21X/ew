@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E2B2009D18AF629C00641AF7 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B2009C18AF629C00641AF7 /* CoreServices.framework */; };
-		E2B200A018AF629C00641AF7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E2B2009F18AF629C00641AF7 /* main.c */; };
-		E2B200A218AF629C00641AF7 /* ew.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2B200A118AF629C00641AF7 /* ew.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +17,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				E2B200A218AF629C00641AF7 /* ew.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -28,8 +25,7 @@
 /* Begin PBXFileReference section */
 		E2B2009918AF629C00641AF7 /* ew */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ew; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B2009C18AF629C00641AF7 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
-		E2B2009F18AF629C00641AF7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		E2B200A118AF629C00641AF7 /* ew.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ew.1; sourceTree = "<group>"; };
+		E2B200A818AF62DC00641AF7 /* tera.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = tera.sh; path = ../asd/tera.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +43,7 @@
 		E2B2009018AF629B00641AF7 = {
 			isa = PBXGroup;
 			children = (
-				E2B2009E18AF629C00641AF7 /* ew */,
+				E2B200A818AF62DC00641AF7 /* tera.sh */,
 				E2B2009B18AF629C00641AF7 /* Frameworks */,
 				E2B2009A18AF629C00641AF7 /* Products */,
 			);
@@ -67,15 +63,6 @@
 				E2B2009C18AF629C00641AF7 /* CoreServices.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E2B2009E18AF629C00641AF7 /* ew */ = {
-			isa = PBXGroup;
-			children = (
-				E2B2009F18AF629C00641AF7 /* main.c */,
-				E2B200A118AF629C00641AF7 /* ew.1 */,
-			);
-			path = ew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +116,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B200A018AF629C00641AF7 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
